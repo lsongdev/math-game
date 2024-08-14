@@ -1,0 +1,49 @@
+@import url(https://lsong.org/css/stylesheet.css);
+@import url(https://lsong.org/stylesheets/card.css);
+@import url(https://lsong.org/stylesheets/progressbar.css);
+
+body {
+  text-align: center;
+}
+
+form {
+  margin-top: 10px;
+}
+
+#app .input {
+  font-size: 2em;
+  padding: 12px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.question {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.game-info {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.game-info p {
+  margin: 0;
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-over h3 {
+  color: #e74c3c;
+  margin-bottom: 15px;
+}
